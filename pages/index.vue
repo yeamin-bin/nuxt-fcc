@@ -5,7 +5,11 @@
     <Profile />
   </div> -->
 
-  <div class="main">Main page</div>
+  <div class="main">
+    Main page
+
+    <img src="/img-1.jpg" alt="" />
+  </div>
 </template>
 
 <script setup></script>
