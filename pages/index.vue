@@ -9,9 +9,21 @@
     Main page
 
     <img src="/img-1.jpg" alt="" />
+
+    <Human />
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import Human from '~/components/icons/Human.vue';
+
+const { $sayHello } = useNuxtApp();
+
+$sayHello('Rasel');
+
+// const { sayHello } = useUtils();
+
+// sayHello();
+</script>
 
 <style lang="scss" scoped></style>
